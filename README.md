@@ -13,4 +13,4 @@ Uses **Putty**'s **plink** tool to connect remotely to a device.
 
 ## Notes
 - [**Putty**](https://putty.org) has to be installed and its directory should be in the **PATH** environment variable
-- Before accessing a Raspberry from the application, it is required to connect to it from the command line first executing the `plink [IP]` command and adding the **host key** to the **Putty** cache (answer **'y'** to the **'Store key in cache? (y/n)'**). At this moment the application cannot intercept the questions of type **y/n**. This action is required only once, the consecutive connections from the application will not ask about the **host key** storage.
+- Before accessing a Raspberry from the application, it is required to connect to it from the command line first executing the `plink [IP]` command and adding the **host key** to the **Putty** cache (answer **'y'** to the **'Store key in cache? (y/n)'**). At this moment the application cannot intercept the questions of type **'y/n'**. This action is required only once, the consecutive connections from the application will not ask about the **host key** storage
